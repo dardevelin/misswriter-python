@@ -1,0 +1,5 @@
+The plugin currently associates channel names with
+a custom prefix. This may be a problem for channel names
+shared across networks where the prefix behavior might not
+be intended, therefor we need to add mechanisms to keep track
+of the server name as well, which is currently not implemented
